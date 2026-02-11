@@ -1,6 +1,6 @@
 # Student and Course Management System
 
-A structured Spring Boot REST API application designed to manage Students and Courses using a clean layered architecture and DTO pattern.
+A production-ready Spring Boot REST API application for managing Students and Courses, built using a layered architecture and DTO-based design.
 
 ## Overview
 
