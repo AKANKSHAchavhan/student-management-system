@@ -1,62 +1,93 @@
-# Student and Course Management System
+Student & Course Management System
 
-A production-ready Spring Boot REST API application for managing Students and Courses, built using a layered architecture and DTO-based design.
+A production-ready Spring Boot REST API application for managing Students and Courses, designed using a clean layered architecture and DTO-based approach following industry best practices.
 
-## Overview
+ Overview
 
-This project demonstrates backend development skills using Java 21 and Spring Boot. It follows industry-standard architecture with clear separation of concerns across Controller, Service, Repository, DTO, and Entity layers.
+This project showcases backend development skills using Java 21 and Spring Boot. It demonstrates structured application design with clear separation of concerns across Controller, Service, Repository, DTO, and Entity layers.
 
-## Tech Stack
+The application provides full CRUD operations for managing students and courses using RESTful APIs.
 
-- Java 21
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-- MySQL
-- Maven
+ Tech Stack
 
-## Architecture
+Java 21
+
+Spring Boot
+
+Spring Data JPA
+
+Hibernate ORM
+
+MySQL Database
+
+Maven
+
+REST APIs
+
+ Architecture
 
 The application follows a layered architecture:
 
-- Controller Layer – Handles REST API requests
-- Service Layer – Contains business logic
-- Service Implementation – Implements service interfaces
-- Repository Layer – Handles database operations
-- DTO Layer – Ensures structured data transfer
-- Entity Layer – Represents database models
+Controller Layer → Handles REST API requests and responses
 
-## Modules
+Service Layer → Contains business logic
 
-Student Module:
-- Create student
-- Retrieve student details
-- Update student
-- Delete student
+Service Implementation Layer → Implements service interfaces
 
-Course Module:
-- Create course
-- Retrieve course details
-- Update course
-- Delete course
+Repository Layer → Handles database interactions using JPA
 
-## Key Highlights
+DTO Layer → Manages structured data transfer between layers
 
-- RESTful API design
-- Proper use of DTO pattern
-- Clean code structure
-- Separation of concerns
-- Maven-based dependency management
+Entity Layer → Represents database models
 
-## How to Run
+This structure ensures scalability, maintainability, and clean code organization.
 
-1. Clone the repository
-2. Configure MySQL credentials in application.properties
-3. Run StudentManagementApplication
-4. Test endpoints using Postman
+ Modules
+ Student Module
 
-## Author
+Create Student
 
-Akanksha Chavhan  
+Retrieve Student Details
+
+Update Student
+
+Delete Student
+
+ Course Module
+
+Create Course
+
+Retrieve Course Details
+
+Update Course
+
+Delete Course
+
+ Key Highlights
+
+RESTful API design principles
+
+DTO pattern implementation
+
+Clean and modular code structure
+
+Separation of concerns
+
+Maven-based dependency management
+
+Production-style project structure
+
+ How to Run
+
+Clone the repository
+
+Configure MySQL credentials in application.properties
+
+Run StudentManagementProjectApplication.java
+
+Test APIs using Postman
+
+ Author
+
+Akanksha Chavhan
 Java Full Stack Developer
-
