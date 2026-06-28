@@ -147,7 +147,7 @@ Test all endpoints using **Postman** or any REST client.
 Java Full Stack Developer | Spring Boot · React · REST APIs
 
 [![GitHub](https://img.shields.io/badge/GitHub-AKANKSHAchavhan-181717?style=flat-square&logo=github)](https://github.com/AKANKSHAchavhan)
-https://www.linkedin.com/in/akanksha-chavhan-5600992a7/
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/akanksha-chavhan-5600992a7/)
 
 ---
 
