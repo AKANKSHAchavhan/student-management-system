@@ -1,4 +1,4 @@
-package com.Akanksha.Student_management;
+package com.Akanksha.Student_management.dto;
 
 public class CourseDTO {
 	 private int id;

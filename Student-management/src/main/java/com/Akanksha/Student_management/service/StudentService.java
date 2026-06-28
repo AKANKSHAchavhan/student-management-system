@@ -1,6 +1,9 @@
-package com.Akanksha.Student_management;
+package com.Akanksha.Student_management.service;
 
 import java.util.List;
+
+import com.Akanksha.Student_management.dto.StudentDTO;
+import com.Akanksha.Student_management.entity.Student;
 
 public interface StudentService {
 	

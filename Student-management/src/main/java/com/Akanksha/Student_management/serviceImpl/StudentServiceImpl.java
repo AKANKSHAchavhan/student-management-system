@@ -1,8 +1,16 @@
-package com.Akanksha.Student_management;
+package com.Akanksha.Student_management.serviceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.stereotype.Service;
+
+import com.Akanksha.Student_management.dto.CourseDTO;
+import com.Akanksha.Student_management.dto.StudentDTO;
+import com.Akanksha.Student_management.entity.Course;
+import com.Akanksha.Student_management.entity.Student;
+import com.Akanksha.Student_management.repository.CourseRepository;
+import com.Akanksha.Student_management.repository.StudentRepository;
+import com.Akanksha.Student_management.service.StudentService;
 
 @Service
 public class StudentServiceImpl implements StudentService {

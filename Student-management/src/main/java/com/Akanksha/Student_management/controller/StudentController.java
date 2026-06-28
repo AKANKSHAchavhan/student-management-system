@@ -1,4 +1,4 @@
-package com.Akanksha.Student_management;
+package com.Akanksha.Student_management.controller;
 
 import java.util.List;
 
@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.Akanksha.Student_management.dto.StudentDTO;
+import com.Akanksha.Student_management.entity.Student;
+import com.Akanksha.Student_management.service.StudentService;
 
 @RestController
 @RequestMapping("/students")

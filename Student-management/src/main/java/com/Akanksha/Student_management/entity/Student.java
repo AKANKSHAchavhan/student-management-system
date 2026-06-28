@@ -1,4 +1,4 @@
-package com.Akanksha.Student_management;
+package com.Akanksha.Student_management.entity;
 
 import java.util.List;
 

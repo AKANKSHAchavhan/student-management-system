@@ -1,7 +1,11 @@
-package com.Akanksha.Student_management;
+package com.Akanksha.Student_management.serviceImpl;
 
 import java.util.List;
 import org.springframework.stereotype.Service;
+
+import com.Akanksha.Student_management.entity.Course;
+import com.Akanksha.Student_management.repository.CourseRepository;
+import com.Akanksha.Student_management.service.CourseService;
 
 
 @Service
